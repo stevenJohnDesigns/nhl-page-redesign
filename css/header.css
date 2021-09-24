@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Sintony:wght@400;700&display=swap');
+
+.header {
+    display: flex;
+    background: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    max-width: 1284px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header .left img {
+    width: 100%;
+    max-width: 98px;
+}
+
+.official-site {
+    font-family: 'Sintony', sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.bi-person-fill {
+    margin-right: 10px;
+}
+
+/** BANNER **/
+.banner {
+    background: #000;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 1284px;
+}
+
+.flyers-logo img {
+    width: 100%;
+    max-width: 72px;
+    margin-right: 20px;
+}
+
+.flyers-banner img {
+    width: 100%;
+    max-width: 325px;
+}
+
+/** nav bar **/
+.nav-wrapper {
+    background: #000;
+    padding: 10px;
+}
+
+.nav {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    max-width: 1284px;
+    list-style: none;
+    margin: auto;
+}
+
+.nav li {
+    color: white;
+    width: min-content;
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 12px;
+    font-family: 'Sintony', sans-serif;
+}
+
+.single-game-tickets {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    background: #ED4434;
+    padding: 5px 0;
+    color: #eee;
+}

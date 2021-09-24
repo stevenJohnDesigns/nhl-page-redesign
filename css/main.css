@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/** MAIN SECTION **/
+.main-content-wrapper {
+    background: url("/images/flyers-background.png");
+    background-attachment: fixed;
+}
+
+.main-content {
+    width: 100%;
+    max-width: 1248px;
+    margin: auto;
+    background: #ECECEC;
+    display: flex;
+    flex-direction: row;
+}
+
+/** LEFT COLUMN **/
+.left-col {
+    display: flex;
+    flex-direction: column;
+    width: calc(16% - 10px);
+    max-width: 186px;
+    font-family: 'Sintony', sans-serif;
+    font-size: 13px;
+    margin-left: 10px;
+    padding: 10px 0;
+}
+
+.flyers-daily,
+.flyer-wire,
+.follow-flyers {
+    background: #FFF;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 10%);
+}
+
+.main-list-item {
+    padding: 15px;
+    font-weight: 800;
+    border-bottom: 1px solid lightgrey;
+    padding: 15px;
+}
+
+.list-item {
+    padding: 7px 0;
+    padding: 10px 15px;
+}
+
+.flyer-wire {
+    margin: 10px 0;
+}
+
+.flyer-wire img {
+    width: 100%;
+    padding: 15px;
+}
+
+/** CENTER COLUMN **/
+.center-col {
+    display: flex;
+    flex-direction: column;
+    width: calc(60% - 20px);
+    max-width: 718px;
+    font-family: 'Sintony', sans-serif;
+    font-size: 13px;
+    margin-left: 20px;
+    padding: 10px 0;
+}
+
+.lead-image-container {
+    padding: 15px;
+    background: #FFF;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 10%);
+}
+
+.lead-image img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/** RIGHT COLUMN **/
+.right-col {
+    display: flex;
+    flex-direction: column;
+    width: calc(24% - 20px);
+    max-width: 280px;
+    font-family: 'Sintony', sans-serif;
+    font-size: 13px;
+    margin-left: 20px;
+    padding: 10px 0;
+}
+
+.single-game-card {
+    padding: 25px;
+    background: #FFF;
+}
+
+.single-game-card img {
+    width: 100%;
+}
+
+.single-game-card span {
+    display: block;
+    padding-top: 7px;
+}
+
+.single-game-card button {
+    all: unset;
+    width: 100%;
+    text-align: center;
+    background: #ED4934;
+    color: white;
+    padding: 10px 0;
+    margin-top: 12px;
+}
